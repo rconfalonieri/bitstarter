@@ -7,7 +7,7 @@ app.use(express.logger());
 app.get('/', function(request, response) {
   
   //response.send('Hello World2!');
-  response.send(Buffer.toString(content));
+  response.send(content.toString());
 
 });
 
