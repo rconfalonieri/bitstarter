@@ -52,6 +52,9 @@
         font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
         text-align: center;
       }
+	  h3,h4 {
+		text-align: center;
+	  }
       p.lead {
         padding-top: 1.5%;
         font-size: 24px;
@@ -152,16 +155,18 @@
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Shared Browsing, because browsing is a shared experience!</p>
+          <p class="lead">Shared Browsing, because browsing must be a shared experience!</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
           <!--img class="img-polaroid" src="http://placehold.it/480x300"-->
-		<video width="480" height="300" controls>
-	    	<source src="https://www.dropbox.com/s/sh3a25cjs2yoz8m/demo.mp4" type="video/mp4">
+		<iframe class="youtube-player" type="text/html" width="480" height="300" src="http://www.youtube.com/embed/HN67HhcJgpg" allowfullscreen frameborder="0">
+		</iframe>
+		<!--video width="480" height="300" controls>
+	    	<source src="http://wecuratepostcards.com/crowdfund-video.mp4" type="video/mp4">
 			Your browser does not support the video tag.
-		</video>
+		</video-->
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -226,7 +231,8 @@
           </p>
         </div>
 		<div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <!--img class="img-polaroid" src="http://placehold.it/480x300"-->
+		  <img class="img-polaroid" src="http://i1314.photobucket.com/albums/t563/rconfalonieri/crowdfund-image_zps190daecd.png">
         </div>
       </div>
 
@@ -288,12 +294,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                    What is WeBrowse?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                    WeBrowse is a new browsing experience.
                   </div>
                 </div>
               </div>
@@ -301,12 +307,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
+                    What can I do with WeBrowse?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+                    You can share online experiences with your friends.
                   </div>
                 </div>
               </div>
