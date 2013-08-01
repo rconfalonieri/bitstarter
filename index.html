@@ -100,11 +100,29 @@
       .footer a {
         color: #ccccff;
       }
+	  /*added for resizing the video in mobile */
 	  iframe {
 		max-width:100%;
-	}
+	} 
+	 /* to center the buttons of addthis */
+	  div.addthis_toolbox {
+	  width:180px;
+	  margin: 0 auto;
+	 }
     </style>
-	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-42822279-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
   </head>
   <body>
 
@@ -213,9 +231,9 @@
 			<!-- AddThis Button BEGIN -->
 			<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
 			<a class="addthis_button_preferred_1"></a>
-			<a class="addthis_button_preferred_2"></a>
-			<!--a class="addthis_button_preferred_3"></a>
-			<a class="addthis_button_preferred_4"></a-->
+			<!--a class="addthis_button_preferred_2"></a-->
+			<a class="addthis_button_preferred_3"></a>
+			<!--a class="addthis_button_preferred_4"></a-->
 			<a class="addthis_button_compact"></a>
 			<a class="addthis_counter addthis_bubble_style"></a>
 			</div>
@@ -355,8 +373,9 @@
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-42873122-1', 'herokuapp.com');
+	  ga('create', 'UA-42822279-1', 'amazonaws.com');
 	  ga('send', 'pageview');
+
 	</script>
   </body>
 </html>
