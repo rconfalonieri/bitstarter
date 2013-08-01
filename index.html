@@ -113,7 +113,10 @@
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
+	  //develop
 	  _gaq.push(['_setAccount', 'UA-42822279-1']);
+	  //staging/production
+	  _gaq.push(['_setAccount', 'UA-42873122-1']);
 	  _gaq.push(['_trackPageview']);
 
 	  (function() {
@@ -372,8 +375,11 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-42822279-1', 'amazonaws.com');
+	  
+	  //develop	
+	  //ga('create', 'UA-42822279-1', 'amazonaws.com');
+	  //staging/production
+		ga('create', 'UA-42873122-1', 'herokuapp.com');
 	  ga('send', 'pageview');
 
 	</script>
